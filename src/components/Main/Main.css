@@ -1,0 +1,31 @@
+main {
+  background-image: url("../../images/bannerbackground.png");
+  height: 40vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  text-align: center;
+}
+
+main h1 {
+  padding-top: 6rem;
+}
+
+.search-field {
+  border: none;
+  width: 300px;
+  padding: 10px 20px;
+  line-height: 15px;
+  border-radius: 50px;
+  background-color: rgb(228, 222, 222);
+  margin: 10px 8px 0px 0px;
+}
+@media only screen and (max-width: 512px) {
+  .search-field {
+    width: 180px;
+  }
+  main h1 {
+    font-size: 1.3rem;
+  }
+}
